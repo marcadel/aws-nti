@@ -1,0 +1,15 @@
+Lab03 - Roadmap: 
+	1. create VPC 
+	2. create 4 Subnets (1 public and 1 private in zone-A and 1 public and 1 private in zone-B  )
+	3. create Internet Gateway
+	4. create 2 NAT Tables (1 in each public subnet)
+	5. create 4 Route Tables (1 for each subnet)
+	6. create 4 security groups (1 for each subnet)
+	7. create 2 ec2's in the 2 public subnets, create 2 ec2's in the 2 private subnets
+	8. install Apache Web Server on 2 private subnets through 2 public subnets - (https://www.digitalocean.com/community/tutorials/how-to-install-the-apache-web-server-on-ubuntu-22-04)
+	9. install & Use NGINX as a Reverse Proxy on the 2 public subnets - (https://phoenixnap.com/kb/nginx-reverse-proxy)
+	10. create 2 target groups (1 for the 2 public subnets and other 1 for the 2 private subnets) - (https://www.youtube.com/watch?v=fZuxp_pOzgI)
+	11. create 2 load balancers (1 for each target group) - (https://www.youtube.com/watch?v=fZuxp_pOzgI)
+	12. run the Apache server through the public load balancer
+	
+	
